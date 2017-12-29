@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; 
 }
 
-$es_plugin_name = 'email-subscribers';
+$es_plugin_name = 'email-subscribers-modified';
 $es_plugin_folder_name = dirname(dirname(plugin_basename(__FILE__)));
 $es_current_folder = dirname(dirname(__FILE__));
 
