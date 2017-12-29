@@ -92,10 +92,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 			padding-top: 100px;
 			box-shadow: none;
 			-webkit-box-shadow: none;
-			background-image: url(../wp-content/plugins/email-subscribers/images/es-logo-64x64.png);
+			background-image: url(../wp-content/plugins/email-subscribers-modified/images/es-logo-64x64.png);
 		}
 		.es-badge {
-			background: url(../wp-content/plugins/email-subscribers/images/es-logo-64x64.png) center no-repeat;
+			background: url(../wp-content/plugins/email-subscribers-modified/images/es-logo-64x64.png) center no-repeat;
 			color: #FFF;
 			font-size: 12px;
 			text-align: center;
@@ -165,7 +165,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</style>
 
 	<?php
-		$es_plugin_data = get_plugin_data( WP_PLUGIN_DIR.'/email-subscribers/email-subscribers.php' );
+		$es_plugin_data = get_plugin_data( WP_PLUGIN_DIR.'/email-subscribers-modified/email-subscribers.php' );
 		$es_current_version = $es_plugin_data['Version'];
 	?>
 

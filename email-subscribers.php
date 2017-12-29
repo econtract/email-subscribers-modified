@@ -69,7 +69,7 @@ function es_update_current_version_and_date( $upgrader_object, $options ) {
 		foreach( $options['plugins'] as $plugin ) {
 
 			if( $plugin == $our_plugin ) {
-				$es_plugin_meta_data = get_plugin_data( WP_PLUGIN_DIR.'/email-subscribers/email-subscribers.php' );
+				$es_plugin_meta_data = get_plugin_data( WP_PLUGIN_DIR.'/email-subscribers-modified/email-subscribers.php' );
 				$es_current_version = $es_plugin_meta_data['Version'];
 
 				$timezone_format = _x('Y-m-d H:i:s', 'timezone date format');
