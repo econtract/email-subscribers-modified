@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c285f98-03d7-4f73-b7f9-deacd6e5ab63" name="Default" comment="" />
+    <list default="true" id="4c285f98-03d7-4f73-b7f9-deacd6e5ab63" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/es-defined.php" afterPath="$PROJECT_DIR$/base/es-defined.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,60 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="email-subscribers-es_ES.po" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/email-subscribers-es_ES.po">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="2225" column="20" lean-forward="false" selection-start-line="2225" selection-start-column="20" selection-end-line="2225" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email-subscribers-fr_FR.mo" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/email-subscribers-fr_FR.mo">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="63" column="8833" lean-forward="false" selection-start-line="63" selection-start-column="8833" selection-end-line="63" selection-end-column="8833" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email-subscribers-hu_HU.mo" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/email-subscribers-hu_HU.mo">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="60" column="3733" lean-forward="false" selection-start-line="60" selection-start-column="3733" selection-end-line="60" selection-end-column="3733" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email-subscribers-hu_HU.po" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/email-subscribers-hu_HU.po">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="2204" column="20" lean-forward="false" selection-start-line="2204" selection-start-column="20" selection-end-line="2204" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email-subscribers-lt_LT.mo" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/email-subscribers-lt_LT.mo">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="59" column="4341" lean-forward="false" selection-start-line="59" selection-start-column="4341" selection-end-line="59" selection-end-column="4341" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="email-subscribers-nb_NO.mo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages/email-subscribers-nb_NO.mo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-2744">
               <caret line="80" column="7803" lean-forward="false" selection-start-line="80" selection-start-column="7803" selection-end-line="80" selection-end-column="7803" />
               <folding />
             </state>
@@ -74,7 +27,7 @@
       <file leaf-file-name="email-subscribers-pl_PL.mo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages/email-subscribers-pl_PL.mo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-1571">
               <caret line="61" column="3864" lean-forward="false" selection-start-line="61" selection-start-column="3864" selection-end-line="61" selection-end-column="3864" />
               <folding />
             </state>
@@ -84,7 +37,7 @@
       <file leaf-file-name="email-subscribers-sv_SE.mo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages/email-subscribers-sv_SE.mo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-1520">
               <caret line="73" column="3667" lean-forward="false" selection-start-line="73" selection-start-column="3667" selection-end-line="73" selection-end-column="3667" />
               <folding />
             </state>
@@ -94,18 +47,68 @@
       <file leaf-file-name="email-subscribers-tr_TR.mo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages/email-subscribers-tr_TR.mo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-1554">
               <caret line="60" column="3864" lean-forward="false" selection-start-line="60" selection-start-column="3864" selection-end-line="60" selection-end-column="3864" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="962" column="0" lean-forward="true" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
+            <state relative-caret-position="466">
+              <caret line="950" column="41" lean-forward="false" selection-start-line="950" selection-start-column="41" selection-end-line="950" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email-subscribers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email-subscribers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="71" column="71" lean-forward="false" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/help/help.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1892">
+              <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es-register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/es-register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3603">
+              <caret line="1116" column="25" lean-forward="true" selection-start-line="1116" selection-start-column="25" selection-end-line="1116" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es-defined.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/es-defined.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -116,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>email-subscribers/</find>
+      <find>/email-subscribers</find>
     </findStrings>
     <replaceStrings>
       <replace>email-subscribers-modified/</replace>
@@ -132,6 +136,8 @@
       <list>
         <option value="$PROJECT_DIR$/email-subscribers.php" />
         <option value="$PROJECT_DIR$/help/help.php" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/base/es-defined.php" />
       </list>
     </option>
   </component>
@@ -164,7 +170,27 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="email-subscribers-modified" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email-subscribers-modified" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="email-subscribers-modified" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email-subscribers-modified" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="email-subscribers-modified" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email-subscribers-modified" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="widget" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,22 +219,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514546760263</updated>
-      <workItem from="1514546761395" duration="212000" />
+      <workItem from="1514546761395" duration="2393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212000" />
+    <option name="totallyTimeSpent" value="2393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -235,30 +262,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/es-register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="976" column="174" lean-forward="false" selection-start-line="976" selection-start-column="174" selection-end-line="976" selection-end-column="174" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email-subscribers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="71" column="72" lean-forward="false" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/help.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="443" column="147" lean-forward="false" selection-start-line="443" selection-start-column="147" selection-end-line="443" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-ca.mo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -309,7 +312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-fr_FR.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-2880">
           <caret line="63" column="8833" lean-forward="false" selection-start-line="63" selection-start-column="8833" selection-end-line="63" selection-end-column="8833" />
           <folding />
         </state>
@@ -317,7 +320,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-hu_HU.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-1537">
           <caret line="60" column="3733" lean-forward="false" selection-start-line="60" selection-start-column="3733" selection-end-line="60" selection-end-column="3733" />
           <folding />
         </state>
@@ -333,7 +336,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-lt_LT.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-1622">
           <caret line="59" column="4341" lean-forward="false" selection-start-line="59" selection-start-column="4341" selection-end-line="59" selection-end-column="4341" />
           <folding />
         </state>
@@ -341,7 +344,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-nb_NO.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-2744">
           <caret line="80" column="7803" lean-forward="false" selection-start-line="80" selection-start-column="7803" selection-end-line="80" selection-end-column="7803" />
           <folding />
         </state>
@@ -349,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-pl_PL.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-1571">
           <caret line="61" column="3864" lean-forward="false" selection-start-line="61" selection-start-column="3864" selection-end-line="61" selection-end-column="3864" />
           <folding />
         </state>
@@ -357,7 +360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-sv_SE.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-1520">
           <caret line="73" column="3667" lean-forward="false" selection-start-line="73" selection-start-column="3667" selection-end-line="73" selection-end-column="3667" />
           <folding />
         </state>
@@ -365,7 +368,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/email-subscribers-tr_TR.mo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-1554">
           <caret line="60" column="3864" lean-forward="false" selection-start-line="60" selection-start-column="3864" selection-end-line="60" selection-end-column="3864" />
           <folding />
         </state>
@@ -373,8 +376,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="962" column="0" lean-forward="true" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
+        <state relative-caret-position="466">
+          <caret line="950" column="41" lean-forward="false" selection-start-line="950" selection-start-column="41" selection-end-line="950" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-subscribers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="71" column="71" lean-forward="false" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/help.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1892">
+          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/es-register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3603">
+          <caret line="1116" column="25" lean-forward="true" selection-start-line="1116" selection-start-column="25" selection-end-line="1116" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/es-defined.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding />
         </state>
       </provider>
