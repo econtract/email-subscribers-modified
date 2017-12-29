@@ -21,7 +21,7 @@ if(!defined('ES_PLG_DIR')) define('ES_PLG_DIR', dirname($es_current_folder).DS);
 
 if(!defined('ES_DIR')) define('ES_DIR', $es_current_folder.DS);
 
-if(!defined('ES_URL')) define('ES_URL',plugins_url().'/'.strtolower('email-subscribers').'/');
+if(!defined('ES_URL')) define('ES_URL',plugins_url().'/'.strtolower('email-subscribers-modified').'/');
 
 define( 'ES_FILE',ES_DIR.'email-subscribers.php' );
 
