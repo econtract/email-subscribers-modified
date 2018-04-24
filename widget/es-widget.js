@@ -146,7 +146,8 @@ function eemail_submitresult(es_widget_form) {
 
 
                     if (esSuccessEvent.detail.es_response === "success") {
-                        jQuery('#thankYouPopup').modal('show');
+                        jQuery('#registerNewsletterPopup').modal('hide');
+                        jQuery('#thankYouNLPopup').modal('show');
 
                     }
                     else {
@@ -159,8 +160,8 @@ function eemail_submitresult(es_widget_form) {
 
                     }
 
-                    es_msg.innerHTML = es_msg_text;
-                    esSuccessEvent.detail.msg = es_msg_text;
+                    //es_msg.innerHTML = es_msg_text;
+                    //esSuccessEvent.detail.msg = es_msg_text;
                     es_widget_form.dispatchEvent(esSuccessEvent); // Trigger ES-Success Event
                 }
             }
