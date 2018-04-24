@@ -146,7 +146,8 @@ function eemail_submitresult(es_widget_form) {
 
 
                     if (esSuccessEvent.detail.es_response === "success") {
-                        jQuery('#thankYouPopup').modal('show');
+                        jQuery('#registerNewsletterPopup').modal('hide');
+                        jQuery('#thankYouNLPopup').modal('show');
 
                     }
                     else {
