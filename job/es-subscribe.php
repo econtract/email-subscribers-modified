@@ -36,7 +36,9 @@ if( (isset($_GET['es'])) && ($_GET['es'] == "subscribe") ) {
 			echo "invalid-email";
 		} else {
 			$homeurl = home_url();
-			$samedomain = strpos($_SERVER['HTTP_REFERER'], $homeurl);
+
+			//including HTTP_HOST for samedomain check as well because we can have multiple domains based on languages
+			$samedomain = strpos($_SERVER['HTTP_REFERER'], $homeurl) || strpos($_SERVER['HTTP_REFERER'], $_SERVER['HTTP_HOST']);
 			if (($samedomain !== false) && $samedomain < 5) {
 				$action = "";
 				global $wpdb;
