@@ -37,8 +37,7 @@ if( (isset($_GET['es'])) && ($_GET['es'] == "subscribe") ) {
 		} else {
 			$homeurl = home_url();
 
-			//including HTTP_HOST for samedomain check as well because we can have multiple domains based on languages
-			$samedomain = strpos($_SERVER['HTTP_REFERER'], $homeurl) || strpos($_SERVER['HTTP_REFERER'], $_SERVER['HTTP_HOST']);
+			$samedomain = strpos($_SERVER['HTTP_REFERER'], $homeurl);
 			if (($samedomain !== false) && $samedomain < 5) {
 				$action = "";
 				global $wpdb;
