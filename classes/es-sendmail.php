@@ -118,7 +118,7 @@ class es_cls_sendmail {
 			$headers .= "Content-Type: text/plain; charset=\"". get_bloginfo('charset') . "\"\n";
 		}
 
-		$url = home_url('/');
+		$url = home_url_wrapper('/');
 		$viewstatus = '<img src="'.$url.'?es=viewstatus&delvid=###DELVIID###" width="1" height="1" />';
 
 		foreach ($crondeliveryqueue as $crondelivery) {
@@ -363,7 +363,7 @@ class es_cls_sendmail {
 
 		if($type == "newsletter" || $type == "notification") {
 			$sendguid = es_cls_common::es_generate_guid(60);
-			$url = home_url('/');
+			$url = home_url_wrapper('/');
 			$viewstatus = '<img src="'.$url.'?es=viewstatus&delvid=###DELVIID###" width="1" height="1" />';
 			es_cls_sentmail::es_sentmail_ins($sendguid, $qstring = 0, $action, $currentdate, $enddt = "", count($subscribers), $content, $mailsenttype);
 		}

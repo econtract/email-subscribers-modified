@@ -470,7 +470,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			$es_cron_url = get_option('ig_es_cronurl', 'nocronurl');
 			if($es_cron_url == "nocronurl") {
 				$guid = es_cls_common::es_generate_guid(60);
-				$home_url = home_url('/');
+				$home_url = home_url_wrapper('/');
 				$cronurl = $home_url . "?es=cron&guid=". $guid;
 				add_option('ig_es_cronurl', $cronurl);
 				$es_cron_url = get_option('ig_es_cronurl');
@@ -526,7 +526,7 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 				$form['ig_es_confirmsubject'] = isset($_POST['es_c_optinsubject']) ? $_POST['es_c_optinsubject'] : '';
 				$form['ig_es_confirmcontent'] = isset($_POST['es_c_optincontent']) ? $_POST['es_c_optincontent'] : '';
 
-				$home_url = home_url('/');
+				$home_url = home_url_wrapper('/');
 
 				$optinlink = $home_url . "?es=optin&db=###DBID###&email=###EMAIL###&guid=###GUID###";
 				$form['ig_es_optinlink'] = $optinlink;

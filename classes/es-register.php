@@ -132,7 +132,7 @@ class es_cls_registerhook {
 		if( $es_c_email_subscribers_ver != "2.9" ) {
 
 			$guid = es_cls_common::es_generate_guid(60);
-			$home_url = home_url('/');
+			$home_url = home_url_wrapper('/');
 			$blogname = get_option('blogname');
 			$cronurl = $home_url . "?es=cron&guid=". $guid;
 
@@ -933,7 +933,7 @@ class es_cls_registerhook {
 
 		if( !empty( $_POST ) ) {
 			$params = $_POST;
-			$params['domain'] = home_url();
+			$params['domain'] = home_url_wrapper();
 		} else {
 			exit();
 		}
@@ -1069,7 +1069,7 @@ class es_widget_register extends WP_Widget {
 		}
 
 		// display widget method
-		$url = home_url();
+		$url = home_url_wrapper();
 
 		global $es_includes;
 		if (!isset($es_includes) || $es_includes !== true) {

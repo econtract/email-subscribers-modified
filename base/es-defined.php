@@ -29,4 +29,16 @@ if(!defined('ES_FAV')) define('ES_FAV', admin_url( 'admin.php?page=es-general-in
 
 if(!defined('ES_ADMINURL')) define( 'ES_ADMINURL', site_url( '/wp-admin/admin.php' ) );
 
+if(!function_exists('home_url_wrapper')) {
+	function home_url_wrapper($path = '') {
+		$siteUrl = get_site_url(null, $path);
+
+		if(strpos($siteUrl, '/wp') !== false) {
+			$siteUrl = str_replace('/wp', '', $siteUrl);
+		}
+
+		return $siteUrl;
+	}
+}
+
 global $es_includes;
