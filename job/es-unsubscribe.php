@@ -9,7 +9,7 @@ if( (isset($_GET['es'])) && ($_GET['es'] == "unsubscribe") ) {
 
 	$blogname = get_option('blogname');
 	$noerror = true;
-	$home_url = home_url('/');
+	$home_url = home_url_wrapper('/');
 	?>
 	<html>
 	<head>

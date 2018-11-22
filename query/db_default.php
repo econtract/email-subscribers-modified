@@ -21,7 +21,7 @@ class es_cls_default {
 				$admin_email = "admin@gmail.com";
 			}
 
-			$home_url = home_url('/');
+			$home_url = home_url_wrapper('/');
 			$optinlink = $home_url . "?es=optin&db=###DBID###&email=###EMAIL###&guid=###GUID###";
 			$unsublink = $home_url . "?es=unsubscribe&db=###DBID###&email=###EMAIL###&guid=###GUID###";
 

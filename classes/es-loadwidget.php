@@ -10,7 +10,7 @@ class es_cls_widget {
 		$es_name = trim($arr['es_name']);
 		$es_desc = trim($arr['es_desc']);
 		$es_group = trim($arr['es_group']);
-		$url = "'" . home_url() . "'";
+		$url = "'" . home_url_wrapper() . "'";
 		$es = "";
 
 		global $es_includes;

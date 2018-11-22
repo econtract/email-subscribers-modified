@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; 
 }
 
-$home_url = home_url('/');
+$home_url = home_url_wrapper('/');
 
 // All Subscribers
 $cnt_all_subscribers = 0;
