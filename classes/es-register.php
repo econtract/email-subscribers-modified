@@ -274,7 +274,8 @@ class es_cls_registerhook {
 		wp_enqueue_script( 'es-widget' );
 		$es_select_params = array(
 			'es_email_notice'       => _x( 'Please enter email address', 'widget-enhanced-select', ES_TDOMAIN ),
-			'es_incorrect_email'    => _x( 'Please provide a valid email address', 'widget-enhanced-select', ES_TDOMAIN ),
+			//'es_incorrect_email'    => _x( 'Please provide a valid email address', 'widget-enhanced-select', ES_TDOMAIN ),
+			'es_incorrect_email'    => pll__( 'Please provide a valid email address'),
 			'es_load_more'          => _x( 'loading...', 'widget-enhanced-select', ES_TDOMAIN ),
 			'es_ajax_error'         => _x( 'Cannot create XMLHTTP instance', 'widget-enhanced-select', ES_TDOMAIN ),
 			'es_success_message'    => _x( 'Successfully Subscribed.', 'widget-enhanced-select', ES_TDOMAIN ),
@@ -291,7 +292,8 @@ class es_cls_registerhook {
 		wp_enqueue_script( 'es-widget-page' );
 		$es_select_params = array(
 			'es_email_notice'       => _x( 'Please enter email address', 'widget-page-enhanced-select', ES_TDOMAIN ),
-			'es_incorrect_email'    => _x( 'Please provide a valid email address', 'widget-page-enhanced-select', ES_TDOMAIN ),
+			//'es_incorrect_email'    => _x( 'Please provide a valid email address', 'widget-page-enhanced-select', ES_TDOMAIN ),
+			'es_incorrect_email'    => pll__( 'Please provide a valid email address'),
 			'es_load_more'          => _x( 'loading...', 'widget-page-enhanced-select', ES_TDOMAIN ),
 			'es_ajax_error'         => _x( 'Cannot create XMLHTTP instance', 'widget-page-enhanced-select', ES_TDOMAIN ),
 			'es_success_message'    => _x( 'Successfully Subscribed.', 'widget-page-enhanced-select', ES_TDOMAIN ),
